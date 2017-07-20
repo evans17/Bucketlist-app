@@ -1,0 +1,5 @@
+.state('sign up' {
+ url:'/sign up',
+template url: 'template/signup.html'
+controller:'signupcontrl'
+}

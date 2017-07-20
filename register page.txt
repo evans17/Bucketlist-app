@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+<title>Bucketlist</title>
+</head>
+<body>
+<h1>register</h1>
+<ion-view title="Bucketlist">
+ <ion-nav-buttons side="primary">
+  <button class="button" ng-click="register()">
+  Back
+  </button>
+</ion-nav-buttons>
+ <ion-content>
+  <div class="list list-inset">
+  <label class="item item-input">
+   <input type="text" ng-model="user.wish" placeholder="register">
+   </label>
+   </div>
+<div class="padding">
+ <button ng-click="add()" class="button button-block button-balanced">
+   register
+ </button>
+</ion-content>
+</ion-view>
+<ion-nav-buttons side="secondary">
+      <button class=" ng-click="showSignUp()">
+      sign SignUp
+      </button>
+  </ion-nav-buttons>
+  

@@ -1,0 +1,12 @@
+.controller('signUpctrl',['$scope,function(scope){
+    
+}])
+$scope.showSignUp = function (){
+    $state.go = ("SignUp");
+  }$scope.add = function(){
+        var firebaseObj = new Firebase("https://blistering-heat-2473.firebaseio.com/MyWish");
+        var fb = $firebase(firebaseObj);
+
+        // Adding code will be here
+    }
+    

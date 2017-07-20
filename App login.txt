@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+<title>Bucketlist</title>
+</head>
+<body>
+
+<h1>Login</h1>
+<ion-view title="ibucketlist>
+   <ion-content>
+   <div class="userHomeMsg>
+      <span>
+          <h2>succesfully logged in !!</h2>
+      </span>
+   </div>
+ </ion-content>
+</ion-view>
